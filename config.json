@@ -1,0 +1,27 @@
+{
+  "n_classes_per_batch": 8,
+  "images_per_class": 10,
+  "steps_per_epoch": 200,
+
+  "test_batch_size": 100,
+
+  "train_lr": 1e-5,
+  "train_epoch": 40,
+
+  "workers": 8,
+  "max_queue_size" : 32,
+
+  "train_im_size": [256, 256],
+  "test_im_size": [256, 256],
+
+  "multi_res_min_ratio": 0.8,
+  "multi_res_max_ratio": 1.8,
+
+  "prob_keep_ratio": 1.0,
+  "proba_multi_res": 1.0,
+  "proba_random_crop": 1.0,
+  "proba_horizontal_flip": 0.5,
+
+  "resume_training" : null,
+  "compute_scores_freq" : 1
+}
