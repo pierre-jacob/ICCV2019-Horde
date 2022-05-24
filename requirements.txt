@@ -1,5 +1,5 @@
 
-tensorflow==1.9.0
+tensorflow==2.6.4
 keras_applications
 scipy
 Pillow-SIMD
